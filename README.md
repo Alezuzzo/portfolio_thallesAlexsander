@@ -1,69 +1,71 @@
-# React + TypeScript + Vite
+# Meu Portfólio Pessoal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img width="1298" height="861" alt="image" src="https://github.com/user-attachments/assets/fc16aacb-2b5a-4248-8bac-9d6fccfa5c82" />
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Sobre o Projeto
 
-## Expanding the ESLint configuration
+Este é o repositório do meu portfólio pessoal, desenvolvido para apresentar meus projetos, experiências e habilidades como desenvolvedor front-end. O site foi construído com tecnologias modernas e focado em uma experiência de usuário limpa, interativa e totalmente responsiva.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+**🔗 Veja o site no ar:** 
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## ✨ Principais Funcionalidades
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- **Design Responsivo:** Totalmente adaptável para desktops, tablets e celulares.
+- **Carrossel Dinâmico:** Seção de herói interativa com carrosséis de projetos em loop infinito.
+- **Seção de Experiência Interativa:** Navegação por abas para detalhar a experiência profissional de forma organizada.
+- **Componentização:** Estrutura de componentes reutilizáveis para fácil manutenção e escalabilidade.
+- **Estilização Moderna:** Utilização de Tailwind CSS para um design limpo, moderno e escuro, com gradientes e micro-interações.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🛠️ Tecnologias Utilizadas
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Este projeto foi construído utilizando as seguintes tecnologias:
+
+- **React:** Biblioteca para construção de interfaces de usuário.
+- **TypeScript:** Superset do JavaScript que adiciona tipagem estática.
+- **Vite:** Ferramenta de build moderna e extremamente rápida.
+- **Tailwind CSS:** Framework CSS utility-first para estilização.
+- **Lucide Icons:** Biblioteca de ícones open-source.
+
+---
+
+## ⚙️ Como Rodar o Projeto Localmente
+
+Siga os passos abaixo para executar o projeto em sua máquina.
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+    ```
+
+2.  **Navegue até o diretório do projeto:**
+    ```bash
+    cd seu-repositorio
+    ```
+
+3.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
+    *Caso encontre conflitos de dependência, você pode tentar:*
+    ```bash
+    npm install --legacy-peer-deps
+    ```
+
+4.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    ```
+
+5.  **Abra o navegador:**
+    Acesse `http://localhost:5173` (ou a porta indicada no terminal).
+
+---
+
+## 📁 Estrutura do Projeto
+
+A estrutura de pastas foi organizada para promover a escalabilidade e a manutenção do código:
