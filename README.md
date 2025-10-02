@@ -1,12 +1,13 @@
 # Meu Portfólio Pessoal
 
-![Prévia do Portfólio](https://i.imgur.com/5O0L8jR.png)
+<img width="1298" height="861" alt="image" src="https://github.com/user-attachments/assets/fc16aacb-2b5a-4248-8bac-9d6fccfa5c82" />
+
 
 ## 🚀 Sobre o Projeto
 
 Este é o repositório do meu portfólio pessoal, desenvolvido para apresentar meus projetos, experiências e habilidades como desenvolvedor front-end. O site foi construído com tecnologias modernas e focado em uma experiência de usuário limpa, interativa e totalmente responsiva.
 
-**🔗 Veja o site no ar:** [**https://seu-link-aqui.vercel.app/**](https://seu-link-aqui.vercel.app/)
+**🔗 Veja o site no ar:** 
 
 ---
 
