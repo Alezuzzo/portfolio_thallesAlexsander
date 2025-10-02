@@ -1,5 +1,6 @@
 import React from 'react';
 import { Award, Briefcase, User } from 'lucide-react';
+const photoURL = 'https://avatars.githubusercontent.com/u/63300520?v=4';
 
 const AboutMeSection: React.FC = () => {
 
@@ -15,7 +16,7 @@ const AboutMeSection: React.FC = () => {
             <div className="relative w-64 h-64">
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full blur-xl animate-pulse"></div>
               <img
-                src={"/src/assets/perfil.jpg"}
+                src={photoURL}
                 alt="Foto de Thalles Alexsander"
                 className="relative w-full h-full object-cover rounded-full border-4 border-slate-700 shadow-2xl"
               />
