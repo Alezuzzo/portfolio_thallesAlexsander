@@ -21,13 +21,12 @@ export const userProjects: Project[] = [
   },
   {
     id: 2,
-    title: "Site de conversão de links para QR CODE",
+    title: "Landing page para Rafter Engenharia",
     description:
-      "Um site desenvolvido para conversão de links para QR CODE, desenvolvido com NEXTJS e Typescript.",
-    imageUrl: "/qr.png",
-    projectUrl: "https://qr-code-generator-wheat.vercel.app/",
-    repoUrl: "https://github.com/Alezuzzo/qrCode-Generator",
-    tags: ["Next.js", "Typescript"],
+      "Uma landing page desenvolvida para a Rafter Engenharia, utilizando HTML, CSS e JavaScript puro.",
+    imageUrl: "/rafter.png",
+    projectUrl: "https://rafterengenharia.com.br/",
+    tags: ["HTML", "CSS", "Javascript"],
   },
   {
     id: 3,
@@ -53,7 +52,7 @@ export const userProjects: Project[] = [
     id: 5,
     title: "Sistema de orçamentos, contratos e dashboard",
     description:
-      "Sistema para criação dinâmica de orçamentos em tempo mínimo e criação de contratos a partir destes orçamentos, com dashboard integrado para visualização de dados como por exemplo o rendimento com orçamentos aprovados construído com React, Typescript e para o backend Express, além do banco de dados em postgres sql. O sistema foi criado de forma exclusiva para um salão de beleza, por isso, é possível ver apenas prints do sistema funcionando.",
+      "Sistema de gestão para salão de beleza focado na criação dinâmica de orçamentos e contratos. Com dashboard para análise de rendimentos e foi desenvolvido com tecnologias modernas. Se trata de projeto exclusivo, sem repositório público.",
     imageUrl: "/sistemaHS.png",
     projectUrl: "#",
     tags: ["React", "Typescript", "Express", "POSTGRES", "SQL"],
