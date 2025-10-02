@@ -16,7 +16,7 @@ const WhatsappIcon = (props: React.SVGProps<SVGSVGElement>) => (
 const FloatingWhatsAppButton: React.FC = () => {
   return (
     <a
-      href="https://wa.me/5535991871679&text=Olá%2C%20gostaria%20de%20mais%20informações%20sobre%20os%20seus%20projetos!"
+      href="https://wa.link/5q63lw"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Fale comigo no WhatsApp"
