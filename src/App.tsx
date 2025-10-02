@@ -5,6 +5,7 @@ import HeroCarouselSection from './pages/HeroCarouselSection';
 import ProjectsSection from './pages/ProjectsSection';
 import AboutMeSection from './pages/AboutMeSection';
 import WorkExperienceSection from './pages/WorkExperienceSection';
+import FloatingWhatsAppButton from './components/FloatingWhatsAppButton';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <ProjectsSection />
       </main>
       <Footer />
+      <FloatingWhatsAppButton/>
     </div>
   );
 }
